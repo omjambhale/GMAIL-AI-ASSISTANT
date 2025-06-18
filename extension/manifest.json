@@ -1,29 +1,21 @@
 {
-    "manifest_version": 3,
-    "name": "Gmail AI Assistant (V1)",
-    "version": "0.1.0",
-    "description": "Adds email summarization and AI reply suggestions to Gmail.",
-    "permissions": [
-      "storage",
-      "activeTab"
-    ],
-    "host_permissions": [
-      "https://mail.google.com/*",
-      "http://localhost:8000/*"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://mail.google.com/*"],
-        "js": ["content.js"],
-        "css": ["styles.css"],
-        "run_at": "document_idle"
-      }
-    ],
-    "action": {
-      "default_title": "Gmail AI Assistant"
+  "manifest_version": 3,
+  "name": "Gmail AI Assistant",
+  "version": "1.0.0",
+  "description": "AI-powered email assistant for Gmail",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
     }
-  }
-  
+  ]
+}
