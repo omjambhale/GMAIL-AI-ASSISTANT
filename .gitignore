@@ -1,0 +1,7 @@
+# extension
+extension/node_modules/
+extension/*.crx
+
+# backend
+backend/__pycache__/
+.env
