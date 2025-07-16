@@ -1,7 +1,7 @@
 // Handle messages from content script
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === 'summarize') {
-      fetch('http://localhost:8000/api/summarize', {
+      fetch('http://localhost:8001/api/summarize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email_content: request.content })
@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     }
     
     if (request.action === 'generate-reply') {
-      fetch('http://localhost:8000/api/generate-reply', {
+      fetch('http://localhost:8001/api/generate-reply', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
