@@ -5,13 +5,13 @@ Thank you for your interest in contributing to Gmail AI Assistant! This document
 ## 🤝 How to Contribute
 
 ### Reporting Bugs
-- Use the [GitHub Issues](https://github.com/yourusername/gmail-ai-assistant/issues) page
+- Use the [GitHub Issues](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/issues) page
 - Include detailed steps to reproduce the bug
 - Provide your browser version and OS information
 - Include any error messages or console logs
 
 ### Suggesting Features
-- Use the [GitHub Discussions](https://github.com/yourusername/gmail-ai-assistant/discussions) page
+- Use the [GitHub Discussions](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/discussions) page
 - Describe the feature and its benefits
 - Consider implementation complexity
 
@@ -105,9 +105,9 @@ We use [Semantic Versioning](https://semver.org/):
 
 ## 🆘 Getting Help
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/gmail-ai-assistant/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/gmail-ai-assistant/discussions)
-- **Email**: your-email@example.com
+- **Issues**: [GitHub Issues](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/discussions)
+- **Email**: omjambhale@gmail.com
 
 ## 📄 Code of Conduct
 

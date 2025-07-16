@@ -43,8 +43,8 @@ A Chrome extension that integrates seamlessly with Gmail to provide intelligent 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gmail-ai-assistant.git
-   cd gmail-ai-assistant
+   git clone https://github.com/omjambhale/GMAIL-AI-ASSISTANT.git
+   cd GMAIL-AI-ASSISTANT
    ```
 
 2. **Set up the backend**
@@ -53,7 +53,8 @@ A Chrome extension that integrates seamlessly with Gmail to provide intelligent 
    pip install -r requirements.txt
    
    # Create .env file with your OpenAI API key
-   echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
+   cp .env.example .env
+   # Edit .env and add your actual OpenAI API key
    
    # Start the backend server
    python main.py
@@ -175,23 +176,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/gmail-ai-assistant/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/gmail-ai-assistant/discussions)
-- **Email:** your-email@example.com
+- **Issues:** [GitHub Issues](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/omjambhale/GMAIL-AI-ASSISTANT/discussions)
+- **Email:** omjambhale@gmail.com
 
 ---
 
 <div align="center">
   <p>Made with ❤️ for better email productivity</p>
   <p>
-    <a href="https://github.com/yourusername/gmail-ai-assistant/stargazers">
-      <img src="https://img.shields.io/github/stars/yourusername/gmail-ai-assistant" alt="Stars">
+    <a href="https://github.com/omjambhale/GMAIL-AI-ASSISTANT/stargazers">
+      <img src="https://img.shields.io/github/stars/omjambhale/GMAIL-AI-ASSISTANT" alt="Stars">
     </a>
-    <a href="https://github.com/yourusername/gmail-ai-assistant/network">
-      <img src="https://img.shields.io/github/forks/yourusername/gmail-ai-assistant" alt="Forks">
+    <a href="https://github.com/omjambhale/GMAIL-AI-ASSISTANT/network">
+      <img src="https://img.shields.io/github/forks/omjambhale/GMAIL-AI-ASSISTANT" alt="Forks">
     </a>
-    <a href="https://github.com/yourusername/gmail-ai-assistant/issues">
-      <img src="https://img.shields.io/github/issues/yourusername/gmail-ai-assistant" alt="Issues">
+    <a href="https://github.com/omjambhale/GMAIL-AI-ASSISTANT/issues">
+      <img src="https://img.shields.io/github/issues/omjambhale/GMAIL-AI-ASSISTANT" alt="Issues">
     </a>
   </p>
 </div> 
